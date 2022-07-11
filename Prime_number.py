@@ -9,18 +9,25 @@
 # Note: every prime number are division of non prime number 
 #############################
 
-Lower_interval = int(input('Enter Lower Number = '))
-Last_interval = int(input('Enter Last Number =  '))
-print("\n########################################")
-print("\n Prime Number are: \n")
+# Lower_interval = int(input('Enter Lower Number = '))
+# Last_interval = int(input('Enter Last Number =  '))
+# print("\n########################################")
+# print("\n Prime Number are: \n")
 
-for prime_number in range (Lower_interval, Last_interval+1):
-    if prime_number > 1:
-        for prime_division in range (2, prime_number):
-            if (prime_number % prime_division) == 0:
-                break
-        if (prime_number % prime_division) == 1:
-            print(prime_number)
+# for prime_number in range (Lower_interval, Last_interval+1):
+#     if prime_number > 1:
+#         for prime_division in range (2, prime_number):
+#             if (prime_number % prime_division) == 0:
+#                 break
+#         if (prime_number % prime_division) == 1:
+#             print(prime_number)
 
 
 ############################
+amount = 0
+for num in range (2, 11):
+    if all(num%i!=0 for i in range (2, num)):
+        print(num)
+        amount += 1
+print(amount)
+
