@@ -19,15 +19,44 @@
 #         for prime_division in range (2, prime_number):
 #             if (prime_number % prime_division) == 0:
 #                 break
-#         if (prime_number % prime_division) == 1:
+#          else:                 # for loop is done  
 #             print(prime_number)
 
 
 ############################
+# amount = 0
+# for num in range (2, 11):
+#     if all(num%i!=0 for i in range (2, num)):
+#         #print(num)
+#         amount += 1
+# print("Total Prime Number count: ",amount)
+
+##############################
+# amount = 0
+# prime = True
+# for num in range (100, 201):
+#     for i in range (2,num):
+#         if num%i == 0:
+#             prime = False
+#             break
+#     if prime:
+#         print(num)
+#         amount += 1
+#     #prime = True #if comment this part this will count 0 cuz prime = False still True
+
+# print("Total Prime Number count: ",amount)
+
+#############################
 amount = 0
-for num in range (2, 11):
-    if all(num%i!=0 for i in range (2, num)):
+#prime = True
+for num in range (100, 201):
+    for i in range (2,num):
+        if num%i == 0:
+            #prime = False
+            break
+    if num%i == 1:
         print(num)
         amount += 1
-print(amount)
+    #prime = True #if comment this part this will count 0 cuz prime = False still True
 
+print("Total Prime Number count: ",amount)
