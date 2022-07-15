@@ -15,8 +15,8 @@
 12. Write a Python program to join two strings (Hint: using join())
 13. Write a Python program to extract digits from given string.
 14. Write a Python program to split strings using newline delimeter. 
-15. Given a string as you input, delete any reoccuring character, and return new string.
-<s>16. Python program to reverse a integer number</s>
-<s>17. Write a Python program to check an integer number is a Palindrome or not</s>
-<s>18. Python program to check number representation is in binary</s>
+15. Given a string as you input, delete any reoccuring character, and return new string. <br>
+<s>16. Python program to reverse a integer number</s> <br>
+<s>17. Write a Python program to check an integer number is a Palindrome or not</s> <br>
+<s>18. Python program to check number representation is in binary</s> <br>
 19. Python program to calculate the factorial using loop
