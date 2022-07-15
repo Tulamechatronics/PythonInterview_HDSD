@@ -16,3 +16,6 @@
 13. Write a Python program to extract digits from given string.
 14. Write a Python program to split strings using newline delimeter. 
 15. Given a string as you input, delete any reoccuring character, and return new string.
+16. Python program to reverse a integer number
+17. Write a Python program to check an integer number is a Palindrome or not
+18. Python program to check number representation is in binary
